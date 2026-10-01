@@ -1,0 +1,30 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+*.publish/
+
+# Visual Studio user and cache files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Angular
+node_modules/
+dist/
+.angular/
+*.log
+
+# Local secrets - appsettings.*.json beyond Development often hold real values
+appsettings.Production.json
+appsettings.Local.json
+*.pfx
+*.snk
+
+# Databases
+*.mdf
+*.ldf
